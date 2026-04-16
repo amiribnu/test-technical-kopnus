@@ -14,7 +14,7 @@ class CandidateFactory extends Factory
     public function definition(): array
     {
         return [
-'user_id' => 1, // Set in seeder
+            'user_id' => 1, 
             'candidate_name' => $this->faker->name,
             'candidate_email' => $this->faker->safeEmail,
             'phone_number' => $this->faker->phoneNumber,

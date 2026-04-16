@@ -19,7 +19,7 @@ class VacancyFactory extends Factory
             'job_description' => $this->faker->paragraph(3),
             'job_requirement' => $this->faker->paragraph(2),
             'closing_date' => $this->faker->dateTimeBetween('now', '+3 months'),
-'status' => 'published',
+            'status' => 'published',
         ];
     }
 }

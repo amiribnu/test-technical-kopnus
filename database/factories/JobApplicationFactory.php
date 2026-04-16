@@ -12,8 +12,8 @@ class JobApplicationFactory extends Factory
     public function definition(): array
     {
         return [
-            'job_id' => 1, // Will be set in seeder
-            'candidate_id' => 1, // Will be set in seeder
+            'job_id' => 1, 
+            'candidate_id' => 1, 
             'status' => $this->faker->randomElement(['pending', 'accepted', 'rejected']),
         ];
     }

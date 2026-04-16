@@ -13,7 +13,7 @@ class EmployerFactory extends Factory
     public function definition(): array
     {
         return [
-'user_id' => 1, // Set in seeder
+            'user_id' => 1, 
             'company_name' => $this->faker->company,
             'company_address' => $this->faker->address,
             'company_phone' => $this->faker->phoneNumber,

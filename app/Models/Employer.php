@@ -3,7 +3,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use app\Models\Vacancy;
+use App\Models\Vacancy;
 
 class Employer extends Model {
     use HasFactory;

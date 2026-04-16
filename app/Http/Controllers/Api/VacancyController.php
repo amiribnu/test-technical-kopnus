@@ -40,7 +40,7 @@ class VacancyController extends Controller {
     public function show(Request $request, Vacancy $vacancy) {
         $user = $request->user();
 
-        // Candidate hanya bisa lihat yang published
+        
         if (!$user || $user->isCandidate()) {
             abort_if($vacancy->status !== 'published', 403);
         }
